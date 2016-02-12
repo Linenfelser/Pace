@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1386EB471C6D5A2F00120628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386EB461C6D5A2F00120628 /* AppDelegate.swift */; };
+		1386EB491C6D5A2F00120628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386EB481C6D5A2F00120628 /* ViewController.swift */; };
+		1386EB4C1C6D5A2F00120628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386EB4A1C6D5A2F00120628 /* Main.storyboard */; };
+		1386EB4E1C6D5A2F00120628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1386EB4D1C6D5A2F00120628 /* Assets.xcassets */; };
+		1386EB511C6D5A2F00120628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386EB4F1C6D5A2F00120628 /* LaunchScreen.storyboard */; };
+		1386EB561C6D5A2F00120628 /* Pace_Linenfelser WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1386EB551C6D5A2F00120628 /* Pace_Linenfelser WatchKit App.app */; };
+		1386EB5C1C6D5A2F00120628 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386EB5A1C6D5A2F00120628 /* Interface.storyboard */; };
+		1386EB5E1C6D5A2F00120628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1386EB5D1C6D5A2F00120628 /* Assets.xcassets */; };
+		1386EB651C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1386EB641C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1386EB6C1C6D5A2F00120628 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386EB6B1C6D5A2F00120628 /* InterfaceController.swift */; };
+		1386EB6E1C6D5A2F00120628 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386EB6D1C6D5A2F00120628 /* ExtensionDelegate.swift */; };
+		1386EB701C6D5A2F00120628 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386EB6F1C6D5A2F00120628 /* NotificationController.swift */; };
+		1386EB721C6D5A2F00120628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1386EB711C6D5A2F00120628 /* Assets.xcassets */; };
+		1386EB821C6D5E6F00120628 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1386EB811C6D5E6F00120628 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1386EB571C6D5A2F00120628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1386EB3B1C6D5A2F00120628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1386EB541C6D5A2F00120628;
+			remoteInfo = "Pace_Linenfelser WatchKit App";
+		};
+		1386EB661C6D5A2F00120628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1386EB3B1C6D5A2F00120628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1386EB631C6D5A2F00120628;
+			remoteInfo = "Pace_Linenfelser WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1386EB791C6D5A2F00120628 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1386EB651C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1386EB7D1C6D5A2F00120628 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1386EB561C6D5A2F00120628 /* Pace_Linenfelser WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1386EB431C6D5A2F00120628 /* Pace_Linenfelser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pace_Linenfelser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1386EB461C6D5A2F00120628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Pace_Linenfelser/AppDelegate.swift; sourceTree = "<group>"; };
+		1386EB481C6D5A2F00120628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1386EB4B1C6D5A2F00120628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1386EB4D1C6D5A2F00120628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1386EB501C6D5A2F00120628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1386EB521C6D5A2F00120628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1386EB551C6D5A2F00120628 /* Pace_Linenfelser WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pace_Linenfelser WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1386EB5B1C6D5A2F00120628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1386EB5D1C6D5A2F00120628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1386EB5F1C6D5A2F00120628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1386EB641C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pace_Linenfelser WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1386EB6A1C6D5A2F00120628 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1386EB6B1C6D5A2F00120628 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1386EB6D1C6D5A2F00120628 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1386EB6F1C6D5A2F00120628 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1386EB711C6D5A2F00120628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1386EB731C6D5A2F00120628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1386EB811C6D5E6F00120628 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1386EB401C6D5A2F00120628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1386EB821C6D5E6F00120628 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1386EB611C6D5A2F00120628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1386EB3A1C6D5A2F00120628 = {
+			isa = PBXGroup;
+			children = (
+				1386EB811C6D5E6F00120628 /* CoreLocation.framework */,
+				1386EB461C6D5A2F00120628 /* AppDelegate.swift */,
+				1386EB451C6D5A2F00120628 /* Pace_Linenfelser */,
+				1386EB591C6D5A2F00120628 /* Pace_Linenfelser WatchKit App */,
+				1386EB681C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension */,
+				1386EB441C6D5A2F00120628 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1386EB441C6D5A2F00120628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1386EB431C6D5A2F00120628 /* Pace_Linenfelser.app */,
+				1386EB551C6D5A2F00120628 /* Pace_Linenfelser WatchKit App.app */,
+				1386EB641C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1386EB451C6D5A2F00120628 /* Pace_Linenfelser */ = {
+			isa = PBXGroup;
+			children = (
+				1386EB481C6D5A2F00120628 /* ViewController.swift */,
+				1386EB4A1C6D5A2F00120628 /* Main.storyboard */,
+				1386EB4D1C6D5A2F00120628 /* Assets.xcassets */,
+				1386EB4F1C6D5A2F00120628 /* LaunchScreen.storyboard */,
+				1386EB521C6D5A2F00120628 /* Info.plist */,
+			);
+			path = Pace_Linenfelser;
+			sourceTree = "<group>";
+		};
+		1386EB591C6D5A2F00120628 /* Pace_Linenfelser WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1386EB5A1C6D5A2F00120628 /* Interface.storyboard */,
+				1386EB5D1C6D5A2F00120628 /* Assets.xcassets */,
+				1386EB5F1C6D5A2F00120628 /* Info.plist */,
+			);
+			path = "Pace_Linenfelser WatchKit App";
+			sourceTree = "<group>";
+		};
+		1386EB681C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1386EB6B1C6D5A2F00120628 /* InterfaceController.swift */,
+				1386EB6D1C6D5A2F00120628 /* ExtensionDelegate.swift */,
+				1386EB6F1C6D5A2F00120628 /* NotificationController.swift */,
+				1386EB711C6D5A2F00120628 /* Assets.xcassets */,
+				1386EB731C6D5A2F00120628 /* Info.plist */,
+				1386EB691C6D5A2F00120628 /* Supporting Files */,
+			);
+			path = "Pace_Linenfelser WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1386EB691C6D5A2F00120628 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1386EB6A1C6D5A2F00120628 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1386EB421C6D5A2F00120628 /* Pace_Linenfelser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1386EB7E1C6D5A2F00120628 /* Build configuration list for PBXNativeTarget "Pace_Linenfelser" */;
+			buildPhases = (
+				1386EB3F1C6D5A2F00120628 /* Sources */,
+				1386EB401C6D5A2F00120628 /* Frameworks */,
+				1386EB411C6D5A2F00120628 /* Resources */,
+				1386EB7D1C6D5A2F00120628 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1386EB581C6D5A2F00120628 /* PBXTargetDependency */,
+			);
+			name = Pace_Linenfelser;
+			productName = Pace_Linenfelser;
+			productReference = 1386EB431C6D5A2F00120628 /* Pace_Linenfelser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1386EB541C6D5A2F00120628 /* Pace_Linenfelser WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1386EB7A1C6D5A2F00120628 /* Build configuration list for PBXNativeTarget "Pace_Linenfelser WatchKit App" */;
+			buildPhases = (
+				1386EB531C6D5A2F00120628 /* Resources */,
+				1386EB791C6D5A2F00120628 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1386EB671C6D5A2F00120628 /* PBXTargetDependency */,
+			);
+			name = "Pace_Linenfelser WatchKit App";
+			productName = "Pace_Linenfelser WatchKit App";
+			productReference = 1386EB551C6D5A2F00120628 /* Pace_Linenfelser WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1386EB631C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1386EB761C6D5A2F00120628 /* Build configuration list for PBXNativeTarget "Pace_Linenfelser WatchKit Extension" */;
+			buildPhases = (
+				1386EB601C6D5A2F00120628 /* Sources */,
+				1386EB611C6D5A2F00120628 /* Frameworks */,
+				1386EB621C6D5A2F00120628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pace_Linenfelser WatchKit Extension";
+			productName = "Pace_Linenfelser WatchKit Extension";
+			productReference = 1386EB641C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1386EB3B1C6D5A2F00120628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Linenfelser";
+				TargetAttributes = {
+					1386EB421C6D5A2F00120628 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A7WP3K827P;
+					};
+					1386EB541C6D5A2F00120628 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A7WP3K827P;
+					};
+					1386EB631C6D5A2F00120628 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A7WP3K827P;
+					};
+				};
+			};
+			buildConfigurationList = 1386EB3E1C6D5A2F00120628 /* Build configuration list for PBXProject "Pace_Linenfelser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1386EB3A1C6D5A2F00120628;
+			productRefGroup = 1386EB441C6D5A2F00120628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1386EB421C6D5A2F00120628 /* Pace_Linenfelser */,
+				1386EB541C6D5A2F00120628 /* Pace_Linenfelser WatchKit App */,
+				1386EB631C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1386EB411C6D5A2F00120628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1386EB511C6D5A2F00120628 /* LaunchScreen.storyboard in Resources */,
+				1386EB4E1C6D5A2F00120628 /* Assets.xcassets in Resources */,
+				1386EB4C1C6D5A2F00120628 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1386EB531C6D5A2F00120628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1386EB5E1C6D5A2F00120628 /* Assets.xcassets in Resources */,
+				1386EB5C1C6D5A2F00120628 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1386EB621C6D5A2F00120628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1386EB721C6D5A2F00120628 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1386EB3F1C6D5A2F00120628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1386EB491C6D5A2F00120628 /* ViewController.swift in Sources */,
+				1386EB471C6D5A2F00120628 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1386EB601C6D5A2F00120628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1386EB701C6D5A2F00120628 /* NotificationController.swift in Sources */,
+				1386EB6E1C6D5A2F00120628 /* ExtensionDelegate.swift in Sources */,
+				1386EB6C1C6D5A2F00120628 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1386EB581C6D5A2F00120628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1386EB541C6D5A2F00120628 /* Pace_Linenfelser WatchKit App */;
+			targetProxy = 1386EB571C6D5A2F00120628 /* PBXContainerItemProxy */;
+		};
+		1386EB671C6D5A2F00120628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1386EB631C6D5A2F00120628 /* Pace_Linenfelser WatchKit Extension */;
+			targetProxy = 1386EB661C6D5A2F00120628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1386EB4A1C6D5A2F00120628 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1386EB4B1C6D5A2F00120628 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1386EB4F1C6D5A2F00120628 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1386EB501C6D5A2F00120628 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1386EB5A1C6D5A2F00120628 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1386EB5B1C6D5A2F00120628 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1386EB741C6D5A2F00120628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1386EB751C6D5A2F00120628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1386EB771C6D5A2F00120628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Pace_Linenfelser WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Pace-Linenfelser.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1386EB781C6D5A2F00120628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Pace_Linenfelser WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Pace-Linenfelser.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		1386EB7B1C6D5A2F00120628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Pace_Linenfelser_WatchKit_Extension;
+				INFOPLIST_FILE = "Pace_Linenfelser WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Pace-Linenfelser.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1386EB7C1C6D5A2F00120628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Pace_Linenfelser_WatchKit_Extension;
+				INFOPLIST_FILE = "Pace_Linenfelser WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Pace-Linenfelser.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		1386EB7F1C6D5A2F00120628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Pace_Linenfelser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Pace-Linenfelser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1386EB801C6D5A2F00120628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Pace_Linenfelser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Pace-Linenfelser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1386EB3E1C6D5A2F00120628 /* Build configuration list for PBXProject "Pace_Linenfelser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1386EB741C6D5A2F00120628 /* Debug */,
+				1386EB751C6D5A2F00120628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1386EB761C6D5A2F00120628 /* Build configuration list for PBXNativeTarget "Pace_Linenfelser WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1386EB771C6D5A2F00120628 /* Debug */,
+				1386EB781C6D5A2F00120628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1386EB7A1C6D5A2F00120628 /* Build configuration list for PBXNativeTarget "Pace_Linenfelser WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1386EB7B1C6D5A2F00120628 /* Debug */,
+				1386EB7C1C6D5A2F00120628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1386EB7E1C6D5A2F00120628 /* Build configuration list for PBXNativeTarget "Pace_Linenfelser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1386EB7F1C6D5A2F00120628 /* Debug */,
+				1386EB801C6D5A2F00120628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1386EB3B1C6D5A2F00120628 /* Project object */;
+}
